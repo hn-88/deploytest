@@ -26,6 +26,6 @@ deploy:
   provider: releases
   api_key: 0f74fbe14901e8106746c1b5a3032fea7cc7a607
   file_glob: true
-  file: *.bin
+  file: h*.bin
   skip_cleanup: true
   draft: true
