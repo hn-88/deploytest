@@ -24,7 +24,7 @@ script:
 after_success:
 deploy:
   provider: releases
-  api_key: "242832d5230c2a1b2fff5743f2e25dff4934f4f4"
+  api_key: "0dffe249e564254e1164bad990265812b7ae6d2d"
   file_glob: true
   file: h*.bin
   skip_cleanup: true
