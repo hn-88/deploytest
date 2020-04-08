@@ -24,8 +24,9 @@ script:
 after_success:
 deploy:
   provider: releases
+  github_token: $GITHUB_TOKEN
   file_glob: true
   file: h*.bin
   skip_cleanup: true
   draft: true
-  edge: true
+  
