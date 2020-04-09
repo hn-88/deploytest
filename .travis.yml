@@ -18,8 +18,6 @@ before_script:
 script: 
   - make hello.bin
    
-  
-  
 
 after_success:
 deploy:
