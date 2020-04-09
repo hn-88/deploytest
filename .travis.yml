@@ -22,7 +22,7 @@ script:
 after_success:
 deploy:
   provider: releases
-  github_token: $github_token
+  github_token: $GITHUB_TOKEN
   file_glob: true
   file: h*.bin
   skip_cleanup: true
